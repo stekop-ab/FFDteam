@@ -1,43 +1,59 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #0a0a23;
-    color: #fff;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0d1117;
+  color: #e6edf3;
 }
 
 header {
-    background: linear-gradient(90deg, #001f3f, #ff4136);
-    padding: 40px;
-    text-align: center;
+  background: linear-gradient(to right, #001f3f, #ff4136);
+  padding: 40px;
+  text-align: center;
 }
 
 header h1 {
-    font-size: 3em;
-    margin: 0;
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+header p {
+  font-size: 1.3em;
 }
 
 section {
-    padding: 30px;
-    max-width: 800px;
-    margin: 0 auto;
+  padding: 30px;
+  max-width: 1000px;
+  margin: auto;
 }
 
-.about {
-    background-color: #112244;
-    margin-top: 20px;
-    border-radius: 10px;
+.intro img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
 }
 
-.contact {
-    background-color: #441111;
-    margin-top: 20px;
-    border-radius: 10px;
+.about ul, .server ul {
+  list-style: square;
+  margin-left: 20px;
+}
+
+.gallery img {
+  width: 48%;
+  margin: 1%;
+  border-radius: 8px;
+  display: inline-block;
+}
+
+.contact a {
+  color: #1e90ff;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 footer {
-    text-align: center;
-    background-color: #000;
-    padding: 20px;
-    font-size: 0.9em;
+  text-align: center;
+  background-color: #000;
+  padding: 20px;
+  margin-top: 30px;
+  font-size: 0.9em;
 }
